@@ -25,7 +25,7 @@ from openerp.osv import orm, fields
 
 
 class report_intrastat_code(orm.Model):
-    _name = "report.intrastat.code"
+    _inherit = "report.intrastat.code"
     _description = "H.S. Code"
     _order = "name"
 

@@ -36,7 +36,8 @@ This module has been written by Alexis de Lattre from Akretion
     """,
     'author': 'Akretion',
     'website': 'http://www.akretion.com',
-    'depends': ['intrastat_base'],
+    'depends': ['intrastat_base',
+                'report_intrastat'],
     'data': [
         'intrastat_view.xml',
         'security/ir.model.access.csv',
